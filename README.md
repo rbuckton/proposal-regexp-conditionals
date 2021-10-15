@@ -190,7 +190,7 @@ The following is a high-level list of tasks to progress through each stage of th
 [Prose]: #motivations
 [Examples]: #examples
 [API]: #api
-[Specification]: https://rbuckton.github.io/proposal-regexp-modifiers
+[Specification]: https://rbuckton.github.io/proposal-regexp-conditionals
 
 [Transpiler]: #todo
 [Stage3ReviewerSignOff]: #todo
