@@ -91,14 +91,13 @@ The following conditions are proposed:
 - `(?<!test-pattern)` &mdash; Evaluates to **true** if a negative lookbehind for test-pattern matches; Otherwise, evaluates to **false**.
 - `(n)` &mdash; Evaluates to **true** if the capture group at offset _n_ was successfully matched; Otherwise, evaluates to **false**.
 - `(<name>)` &mdash; Evaluates to **true** if the named capture group with the provided _name_ was successfully matched; Otherwise, evaluates to **false**.
-- `('name')` &mdash; Evaluates to **true** if the named capture group with the provided _name_ was successfully matched; Otherwise, evaluates to **false**.
 
-The following conditions are under consideration for a future proposal:
+The following conditions are out of scope but may be considered in a future proposal:
 
+- `(DEFINE)` &mdash; Always evaluates to **false**. This allows you to define Subroutines.
 - `(R)` &mdash; Evaluates to **true** if inside a recursive expression; Otherwise, evaluates to **false**.
 - `(Rn)` &mdash; Evaluates to **true** if inside a recursive expression for the capture group at offset n; Otherwise, evaluates to **false**.
 - `(R&name)` &mdash; Evaluates to **true** if inside a recursive expression for the named capture group with the provided name; Otherwise, evaluates to **false**.
-- `(DEFINE)` &mdash; Always evaluates to **false**. This allows you to define Subroutines.
 
 <!--#endregion:syntax-->
 
