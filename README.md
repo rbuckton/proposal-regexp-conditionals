@@ -149,6 +149,11 @@ re1.test("[abc"); // false
 * [Title](url)   -->
 <!--#endregion:references-->
 
+# History
+
+- October 27, 2021 &mdash; Proposed for Stage 1 ([slides](https://1drv.ms/p/s!AjgWTO11Fk-Tkfl9fQQBfWQjIgf1QQ?e=jFynF5))
+  - Outcome: Remained at Stage 0
+
 <!--#region:todo-->
 # TODO
 
